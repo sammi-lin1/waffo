@@ -4,9 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Waffo</title>
 </head>
 <body>
-    <h1> Waffo Yeah Yeah Test</h1>
+    <h1>Waffo</h1>
+    <div class="waffo-container">
+        <img src="images/waffo.png" alt="waffle" style="width: 20em; height: 20em;"/>
+    </div>
+    
+<div class="container">
+    <div class="rain-container">
+        <input type="image" img src="images/rain.png" name="rainSounds" 
+        class="rainBtn" id="rainSounds" style="width: 6em; height: 6em;"/>
+        <audio src="music/rainsounds.m4a" id="rainAudio"></audio>
+    </div>
+
+    <div class="music-container">
+        <div class="music-info">
+            <h4 id="title">always, i'll care</h4>
+            <div class="progress-container">
+                <div class="progress"></div>
+            </div>
+        </div>
+
+        <audio src="music/always, i'll care - Jeremy Zucker.mp3" id="audio"></audio>
+        
+        <div class="img-container">
+            <img src="images/always, i'll care - Jeremy Zucker.jpg" alt="music-cover"
+            id="cover"/>
+        </div>
+
+        <div class="navigation">
+            <button id="prev" class="action-btn">
+                <i class="fas fa-backward"></i>
+            </button>
+
+            <button id="play" class="action-btn action-btn-big">
+                <i class="fas fa-play"></i>
+            </button>
+
+            <button id="next" class="action-btn">
+                <i class="fas fa-forward"></i>
+            </button>
+        </div>
+    </div>
+    <div class="breathe-container">
+        <input data-modal-target="#modal" type="image" img src="images/breathe.png" name="breathe" 
+        class="breatheBtn" id="breathe" style="width: 7em; height: 7em;"/>
+    </div>
+</div>
+
+
+  <div class="modal" id="modal">
+    <div class="modal-header"> </div>
+    <div class="container" id="container2">
+        <div class="circle"></div>
+  
+        <p id="text"></p>
+  
+        <div class="pointer-container">
+          <span class="pointer"></span>
+        </div>
+  
+        <div class="gradient-circle"></div>
+      </div>
+  </div>
+  <div id="overlay"></div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
