@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
 
 * {
@@ -8,7 +8,7 @@
 body {
     height: 100vh;
     margin: 0;
-    font-family: Oleo Script, Geneva, Tahoma, sans-serif;
+    font-family: Secular One, Geneva, Tahoma, sans-serif;
     outline: #4b4439;
     color: #fff;
     background-color: #F3C47A;
