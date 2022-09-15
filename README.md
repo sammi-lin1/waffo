@@ -1,6 +1,5 @@
-# waffo
+# [waffo](https://sammi-lin1.github.io/waffo/)
 Wafflehacks 2022 Project. Art and Music Track
-[Waffo](https://sammi-lin1.github.io/waffo/)
 
 A website designed to help calm the minds of anxious people. Listen to soothing music alongside gentle rain sounds. This site also has a built in breathing exercise to help you get to a peaceful state of mind.
 
